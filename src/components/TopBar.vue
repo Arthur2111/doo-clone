@@ -1,9 +1,7 @@
 <template>
  <div class="navbar">
   <div class="dropdown">
-    <button class="dropbtn">Language 
-      <i class="fa fa-caret-down"></i>
-    </button>
+    <button class="dropbtn">Language</button>
     <div class="dropdown-content">
       <a href="#">English</a>
         <a href="#">简体中文</a>
@@ -17,10 +15,6 @@
   <a href="#home">Free Demo</a>
 
 </div>
-
-  <NavigationBar></NavigationBar>
-
-
 </template>
 
 
@@ -28,13 +22,8 @@
 <script>
 
 
-import NavigationBar from "./NavigationBar.vue";
 
-export default {
-  components: {
-    NavigationBar,
-  },
-};
+
 
 </script>
 
@@ -47,14 +36,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar-main{
+  background-color: white;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #131721;
+  height: 30px;
+  z-index: 900;
 }
 
 .navbar a {
   float: right;
-  font-size: 16px;
+  font-size: 12px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -67,7 +62,7 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 12px;  
   border: none;
   outline: none;
   color: white;
