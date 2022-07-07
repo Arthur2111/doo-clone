@@ -1,141 +1,68 @@
 <template>
-  <div class="navbar">
-    <a href="#">Home</a>
-
-    <div class="dropdown">
-      <button href="#" class="dropbtn">
-        {{ content }}
-      </button>
-      <div class="dropdown-content">
-        <div class="header">
-          <h2>Mega Menu</h2>
-        </div>
-        <div class="row">
-          <div class="column">
-            <h3>Category 1</h3>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+<div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="https://www.dooprimeglobal.com/wp-content/themes/DP3-1104/style/images/common/logo-dp-dark.svg" alt="DooLogo">
+              </div>
+              <div class="row">
+                <header>Markets</header>
+                <ul class="mega-links">
+                  <li><a href="#">Securities</a></li>
+                  <li><a href="#">Futures</a></li>
+                  <li><a href="#">Forex</a></li>
+                  <li><a href="#">Precious Metals</a></li>
+                  <li><a href="#">Commodities</a></li>
+                  <li><a href="#">Stock Indices</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Tools</header>
+                <ul class="mega-links">
+                  <li><a href="#">Trading Platform</a></li>
+                  <li><a href="#">Social Trading</a></li>
+                  <li><a href="#">Analysis</a></li>
+                  <li><a href="#">Trading Tools</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Partnership</header>
+                <ul class="mega-links">
+                  <li><a href="#">Promotion</a></li>
+                  <li><a href="#">Partners</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>About Us</header>
+                <ul class="mega-links">
+                  <li><a href="#">Our Story</a></li>
+                  <li><a href="#">Media Center</a></li>
+                  <li><a href="#">Corporate Social Responsibility</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Compliance</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Help Center</header>
+                <ul class="mega-links">
+                  <li><a href="#">Account Related</a></li>
+                  <li><a href="#">Funding</a></li>
+                  <li><a href="#">Trading Products</a></li>
+                  <li><a href="#">Trading Platform</a></li>
+                  <li><a href="#">Social Trading</a></li>
+                  <li><a href="#">Trading Tools</a></li>
+                  <li><a href="#">Analysing Tools</a></li>
+                  <li><a href="#">Promotions</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="column">
-            <h3>Category 2</h3>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-          <div class="column">
-            <h3>Category 3</h3>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </template>
 
 <script>
-export default {
-  props: {
-    content: String,
-  },
-};
+
+export default{
+  
+}
+
 </script>
-
-<style scoped>
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  width: 100%;
-  left: 0;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Mega Menu header, if needed */
-.dropdown-content .header {
-  background: red;
-  padding: 16px;
-  color: white;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  background-color: #ccc;
-  height: 250px;
-}
-
-/* Style links inside the columns */
-.column a {
-  float: none;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a background color on hover */
-.column a:hover {
-  background-color: #ddd;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
