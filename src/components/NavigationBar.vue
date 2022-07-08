@@ -377,12 +377,29 @@
           </div>
           </li>
       </ul>
+      <button class="login">Login</button>
+      <button class="register">Register</button>
     </div>
   </nav>
+  <hero-carousel></hero-carousel>
 </template>
 
+<script>
+import HeroCarousel from './HeroCarousel.vue'
 
-<style>
+
+export default {
+  components: {
+    HeroCarousel
+  }
+}
+
+
+
+</script>
+
+
+<style scoped>
 * {
   margin: 0;
   padding: 0;
@@ -393,19 +410,54 @@ nav {
   background: white;
   position: fixed;
   width: 100%;
-  z-index: 999;
-  height: 30px;
+  z-index: 900;
+  height: 60px;
   line-height: 30px;
 }
 
 nav .wrapper {
   /* cotrols the width of the navbar*/
   position: relative;
-  max-width: 1000px;
+  max-width: 1250px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+nav .wrapper .login {
+  padding: 12px 35px;
+  border-radius: 10px;
+  border: 1.5px solid red;
+  font-size: 16px;   
+}
+
+nav .wrapper .login:hover {
+  padding: 12px 35px;
+  background-color: red;
+  border-radius: 10px;
+  border: 1.5px solid red;
+  color:white;
+  font-size: 16px;   
+  cursor: pointer;
+}
+
+nav .wrapper .register:hover {
+  padding: 12px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1.5px solid red;
+  font-size: 16px;   
+  opacity: 0.7;
+}
+
+nav .wrapper .register {
+  padding: 12px 35px;
+  background-color: red;
+  border-radius: 10px;
+  border: 1.5px solid red;
+  color:white;
+  font-size: 16px;   
 }
 
 /* we dont have .logo a as we have an image */
@@ -426,9 +478,10 @@ nav .wrapper {
 .nav-links li a {
   color: #000018;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 400;
   padding: 9px 15px;
+  
 }
 
 .nav-links li a:hover {
@@ -436,7 +489,7 @@ nav .wrapper {
 }
 
 .nav-links li:hover .mega-box{
-  top: 65px;
+  top: 40px;
   opacity: 1;
   visibility: visible;
   transition: all 0.3s ease;
@@ -444,7 +497,7 @@ nav .wrapper {
 
 .mega-box{
   position: absolute;
-  top: 85px;
+  top: 60px;
   background: white;
   width: 100%;
   left: 0;
@@ -467,12 +520,13 @@ nav .wrapper {
 }
 
 .content .row header{
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 500;
+  margin-left: 20px;
 }
 
 .content .row .mega-links{
-  margin-left: -40px;
+  margin-left: 40px;
   border-left: 1px solid rgba(0, 0, 0, 0.289);
 }
 
@@ -483,6 +537,7 @@ nav .wrapper {
 }
 
 .row .mega-links li a{
+  margin: 10px;
   padding: 0 20px;
   display: block;
 }

@@ -43,13 +43,13 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #131721;
-  height: 30px;
+  height: 60px;
   z-index: 900;
 }
 
 .navbar a {
   float: right;
-  font-size: 12px;
+  font-size: 20px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -62,7 +62,7 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 12px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: white;
@@ -90,7 +90,7 @@ body {
   background-color: #000018;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 999;
 }
 
 .dropdown-content a {
