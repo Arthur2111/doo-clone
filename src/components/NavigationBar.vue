@@ -385,7 +385,7 @@
 </template>
 
 <script>
-import HeroCarousel from './HeroCarousel.vue'
+import HeroCarousel from './Carousel/HeroCarousel.vue'
 
 
 export default {
@@ -407,12 +407,16 @@ export default {
 }
 
 nav {
-  background: white;
+  background: none;
   position: fixed;
   width: 100%;
   z-index: 900;
   height: 60px;
   line-height: 30px;
+}
+
+nav:hover{
+  background: white;
 }
 
 nav .wrapper {
@@ -489,7 +493,7 @@ nav .wrapper .register {
 }
 
 .nav-links li:hover .mega-box{
-  top: 40px;
+  top: 60px;
   opacity: 1;
   visibility: visible;
   transition: all 0.3s ease;
@@ -497,7 +501,7 @@ nav .wrapper .register {
 
 .mega-box{
   position: absolute;
-  top: 60px;
+  top: 80px;
   background: white;
   width: 100%;
   left: 0;
