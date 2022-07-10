@@ -27,6 +27,7 @@ export default {
 <style scoped>
 .carousel-item {
   position: absolute;
+  object-fit: cover;
   top: 0;
   left: 0;
   right: 0;
