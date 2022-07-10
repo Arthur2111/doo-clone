@@ -4,6 +4,7 @@
     <trading-environment></trading-environment>
     <fade-in-elements-one></fade-in-elements-one>
     <multiple-trading-account></multiple-trading-account>
+    <safe-reliable></safe-reliable>
 
 
 </template>
@@ -14,6 +15,7 @@ import NavigationBar from "./components/NavigationBar.vue"
 import TradingEnvironment from "./components/TradingEnvironment/TradingEnvironment.vue"
 import FadeInElementsOne from "./components/FadeInElementsOne.vue"
 import MultipleTradingAccount from "./components/MultipleTradingAccount/MultipleTradingAccount.vue"
+import SafeReliable from "./components/SafeReliable/SafeReliable.vue"
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
     NavigationBar,
     TradingEnvironment,
     FadeInElementsOne,
-    MultipleTradingAccount
+    MultipleTradingAccount,
+    SafeReliable
   }
   
 }

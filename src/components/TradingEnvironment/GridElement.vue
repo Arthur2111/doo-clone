@@ -111,7 +111,7 @@
 
 .grid-content {
   display: grid;
-  grid-template-columns: 500px 500px 500px;
+  grid-template-columns: 30rem 30rem 30rem;
   grid-template-rows: 400px 400px;
   justify-content: center;
   align-items: center;
@@ -135,13 +135,13 @@
 }
 
 .top {
-  font-size: 13px;
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
 }
 
 .bottom {
-  font-size: 8px;
+  font-size: 0.5rem;
   text-align: center;
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
 
-<div class="container">
+<header class="container">
     <h1>Multiple Trading Accounts</h1>
-</div>
+</header>
 
 <a href="#">Learn More</a>
 
@@ -33,6 +33,7 @@ export default{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+    font-size: 20px;
 }
 
 a {
@@ -40,6 +41,7 @@ a {
     justify-content: center;
     text-decoration: none;
     color: red;
+    font-size: 20px;
 }
 
 
