@@ -28,19 +28,19 @@ export default {
       slides: [
         {
           id: 1,
-          image: "https://picsum.photos/id/1032/1200/600",
+          image: "https://www.dooprimeglobal.com/wp-content/uploads/2022/03/home-banner-4.webp",
         },
         {
           id: 1,
-          image: "https://picsum.photos/id/1033/1200/600",
+          image: "https://www.dooprimeglobal.com/wp-content/uploads/2022/07/2022Q1%E7%94%A8%E6%88%B7%E6%8B%89%E6%96%B0%E6%B4%BB%E5%8A%A8-3.jpg",
         },
         {
           id: 1,
-          image: "https://picsum.photos/id/1037/1200/600",
+          image: "https://www.dooprimeglobal.com/wp-content/uploads/2022/04/homepage-banner.webp",
         },
         {
           id: 1,
-          image: "https://picsum.photos/id/1035/1200/600",
+          image: "https://www.dooprimeglobal.com/wp-content/uploads/2022/03/banner-2022.webp",
         },
       ],
       currentSlide: 0,
@@ -96,8 +96,8 @@ export default {
 
 .carousel-inner {
   position: relative;
-  width: 1200px;
-  height: 600px;
+  width: 100%;
+  height: 50rem;
   overflow: hidden;
 }
 </style>
