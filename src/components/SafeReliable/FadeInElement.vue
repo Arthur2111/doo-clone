@@ -192,9 +192,7 @@ p {
   font-size: 2rem;
 }
 
-.computer {
-  margin-right: 10rem;
-}
+
 
 .grid-container {
   margin-left: 8rem;
@@ -274,5 +272,6 @@ img .android {
   display: flex;
   align-items: center;
 }
+
 
 </style>

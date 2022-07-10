@@ -5,6 +5,7 @@
     <fade-in-elements-one></fade-in-elements-one>
     <multiple-trading-account></multiple-trading-account>
     <safe-reliable></safe-reliable>
+    <social-trading></social-trading>
 
 
 </template>
@@ -16,6 +17,7 @@ import TradingEnvironment from "./components/TradingEnvironment/TradingEnvironme
 import FadeInElementsOne from "./components/FadeInElementsOne.vue"
 import MultipleTradingAccount from "./components/MultipleTradingAccount/MultipleTradingAccount.vue"
 import SafeReliable from "./components/SafeReliable/SafeReliable.vue"
+import SocialTrading from "./components/SocialTrading/SocialTrading.vue"
 
 
 export default {
@@ -26,7 +28,8 @@ export default {
     TradingEnvironment,
     FadeInElementsOne,
     MultipleTradingAccount,
-    SafeReliable
+    SafeReliable,
+    SocialTrading
   }
   
 }
@@ -42,6 +45,6 @@ body{
   font-family: 'Poppins';
   padding: 0;
   margin: 0;
-  min-height: 500vh;
+  min-height: 700vh;
 }
 </style>
