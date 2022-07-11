@@ -1,0 +1,7 @@
+<template>
+    <p>Any trading symbols displayed herein are for illustrative purposes only and shall not constitute any advice or recommendation by us. Any comments, statements, data, information, material or third party material (“Material”) provided on this website are for reference purposes only. The Material is used solely for the purposes of marketing communication and does not contain, and shall not be construed as investment advice and/or an investment recommendation for any transactions. While we took all reasonable efforts to ensure the accuracy and completeness of the information, we make no representations and warranties to the Material and shall not be liable for any loss, including but not limited to loss of profit, direct or indirect loss or damages for any inaccuracies and incompleteness from the information provided. You shall only use the Material for personal use and shall not reproduce, copy, redistribute and/or license the Material without our consent.</p>
+    <p>We use cookies on our websites to customize the information and experience displayed on our website according to your preferences.  By accessing this website, you acknowledge that you have read and agreed to the details above and agreed to our use of cookies.</p>
+    <p>We strictly comply with all applicable laws and regulations in jurisdictions. It is your responsibility to determine and ensure that your investment meets your requirements. You undertake to bear all the consequences of your investment and trading activities.</p>
+
+
+</template>

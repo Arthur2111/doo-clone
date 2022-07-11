@@ -32,7 +32,7 @@ export default {
 
 .container{
     margin-top: 10rem;
-    margin-left: 5rem;
+    margin-left: 20rem;
 }
 
 .header{

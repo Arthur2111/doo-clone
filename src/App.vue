@@ -9,6 +9,8 @@
     <international-presence></international-presence>
     <awards-awarded></awards-awarded>
     <red-banner></red-banner>
+    <compliance-area></compliance-area>
+    <footer-doo></footer-doo>
 
 
     
@@ -27,6 +29,8 @@ import SocialTrading from "./components/SocialTrading/SocialTrading.vue"
 import InternationalPresence from "./components/InternationalPresence/InternationalPresence.vue"
 import AwardsAwarded from "./components/Awards/AwardsAwarded.vue"
 import RedBanner from "./components/Banner/RedBanner.vue"
+import ComplianceArea from './components/Compliance/ComplianceArea.vue'
+import FooterDoo from './components/Footer/FooterDoo.vue'
 
 
 export default {
@@ -41,7 +45,9 @@ export default {
     SocialTrading,
     InternationalPresence,
     AwardsAwarded,
-    RedBanner
+    RedBanner,
+    ComplianceArea,
+    FooterDoo
   },
 
   
@@ -58,6 +64,5 @@ body{
   font-family: 'Poppins';
   padding: 0;
   margin: 0;
-  min-height: 1000vh;
 }
 </style>
