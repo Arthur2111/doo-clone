@@ -6,6 +6,12 @@
     <multiple-trading-account></multiple-trading-account>
     <safe-reliable></safe-reliable>
     <social-trading></social-trading>
+    <international-presence></international-presence>
+    <awards-awarded></awards-awarded>
+    <red-banner></red-banner>
+
+
+    
 
 
 </template>
@@ -18,6 +24,9 @@ import FadeInElementsOne from "./components/FadeInElementsOne.vue"
 import MultipleTradingAccount from "./components/MultipleTradingAccount/MultipleTradingAccount.vue"
 import SafeReliable from "./components/SafeReliable/SafeReliable.vue"
 import SocialTrading from "./components/SocialTrading/SocialTrading.vue"
+import InternationalPresence from "./components/InternationalPresence/InternationalPresence.vue"
+import AwardsAwarded from "./components/Awards/AwardsAwarded.vue"
+import RedBanner from "./components/Banner/RedBanner.vue"
 
 
 export default {
@@ -29,8 +38,12 @@ export default {
     FadeInElementsOne,
     MultipleTradingAccount,
     SafeReliable,
-    SocialTrading
-  }
+    SocialTrading,
+    InternationalPresence,
+    AwardsAwarded,
+    RedBanner
+  },
+
   
 }
 
@@ -45,6 +58,6 @@ body{
   font-family: 'Poppins';
   padding: 0;
   margin: 0;
-  min-height: 700vh;
+  min-height: 1000vh;
 }
 </style>

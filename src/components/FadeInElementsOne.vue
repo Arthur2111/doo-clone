@@ -1,5 +1,6 @@
 <template>
 <div class="container">
+    <!-- use keyframes rule  -->
     <div class="element-left">
         <h1>Flexible Fund Access</h1>
         <h2><span>22</span> Currencies Supported</h2>
