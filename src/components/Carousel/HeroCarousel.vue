@@ -54,7 +54,7 @@ export default {
     },
     prev() {
       const index =
-        this.currentSlide > 0 ? this.currentSlide - 1 : this.slides.length - 1;
+      this.currentSlide > 0 ? this.currentSlide - 1 : this.slides.length - 1;
       this.setCurrentSlide(index);
       this.direction = "left";
       this.startSlideTimer();

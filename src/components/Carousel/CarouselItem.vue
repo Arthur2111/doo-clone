@@ -4,9 +4,7 @@
       <img :src="slide.image" alt="DooItems" />
       <h1>
         <span
-          >Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat.</span
-        >
+          >Enim ad minim veniam, quis nostrud exercitation ullamco <br> laboris nisiut aliquip ex ea commodo consequat.</span>
       </h1>
       <span><button>log in</button></span>
     </div>
@@ -47,12 +45,12 @@ span {
 span button {
   position: absolute;
   top: 100px;
-  left: 20px;
+  left: 10px;
   width: 100px;
   padding: 12px 20px;
   border-radius: 10px;
   border: 1.5px solid red;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 span button:hover {
@@ -83,6 +81,8 @@ span button:hover {
 .slide-out-leave-to {
     transform: translateX(-100%);
 }
+
+
 
 
 </style>
